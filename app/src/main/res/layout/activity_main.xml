@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubhra.inclass4.MainActivity">
+
+    <!--/*
+    a. Assignment: In Class 4.
+    b. File Name: InClass04_Group20
+    c. Full name of all students in your group: Shubhra Mishra , Ankit Kelkar*/-->
+
+    <SeekBar
+        android:id="@+id/sbPwdCnt"
+        android:layout_width="329dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPwdCnt"
+        android:max="9"/>
+
+    <SeekBar
+        android:id="@+id/sbPwdLength"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPwdLength"
+        android:max="15"/>
+
+    <Button
+        android:id="@+id/btnPwdThread"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/btnPwdThread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPwdLength" />
+
+    <Button
+        android:id="@+id/btnPwdAsync"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnPwdAsync"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPwdThread" />
+
+    <TextView
+        android:id="@+id/textPwdCnt"
+        android:layout_width="230dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/textPwdCnt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPwdLength"
+        android:layout_width="226dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/textPwdLength"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPwdCnt" />
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="73dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPwdLength" />
+
+    <TextView
+        android:id="@+id/textSetPwdCnt"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textPwdCnt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSetPwdLength"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textPwdLength"
+        app:layout_constraintTop_toBottomOf="@+id/sbPwdCnt" />
+
+    <TextView
+        android:id="@+id/tvFinalPwd"
+        android:layout_width="215dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/sbPwdLength" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Concurrency</string>
+    <string name="textPwdCnt">Select Passwords Count:</string>
+    <string name="textPwdLength">Select Passwords Length:</string>
+    <string name="textPassword">Password:</string>
+    <string name="btnPwdThread">Generate Passwords(Thread)</string>
+    <string name="btnPwdAsync">Generate Passwords(Async Task)</string>
+    <string name="sbPwdCnt"></string>
+    <string name="sbPwdLength"></string>
+    <string name="tvFinalPwd"></string>
+    <string name="textSetPwdCnt">Generate Passwords(Async Task)</string>
+    <string name="textSetPwdLength">Generate Passwords(Async Task)</string>
+    <string name="Welcome">Hello, Welcome to our Password Generating App!!!!</string>
+</resources>
